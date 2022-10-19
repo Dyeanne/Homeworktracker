@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="411dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="454dp"
+            android:layout_height="126dp"
+
+            android:background="#3544CA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/be_vietnam"
+                android:text="YOUR"
+                android:textColor="#FFFFFF"
+
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.098"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.388" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="202dp"
+                android:layout_height="37dp"
+                android:fontFamily="@font/be_vietnam"
+                android:text="HOMEWORKS"
+                android:textColor="#FFFFFF"
+
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.28"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.802" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.893"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_male_user_70__1_" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="112dp"
+            android:layout_height="49dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:fontFamily="@font/be_vietnam"
+            android:inputType="textPersonName"
+            android:text="TO DO LIST:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.639" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="133dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.748" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="133dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            android:fontFamily="@font/be_vietnam"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.701" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="133dp"
+            android:layout_height="48dp"
+            android:text="CheckBox"
+            android:fontFamily="@font/be_vietnam"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.795" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="400dp"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="414dp"
+            android:layout_height="88dp"
+
+            android:background="#D9D9D9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="52dp"
+                android:layout_height="53dp"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.166"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.466"
+                app:srcCompat="@drawable/icons8_home_60__1_" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="58dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.525"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.571"
+                app:srcCompat="@drawable/icons8_calendar_60" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.545"
+                app:layout_constraintStart_toEndOf="@+id/imageButton3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_moleskine_60" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="146dp"
+            android:layout_height="51dp"
+            android:background="@drawable/custom_button1"
+            android:drawableLeft="@drawable/ic_baseline_create_24"
+            android:fontFamily="@font/be_vietnam"
+            android:text="Add Assignment"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.865"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.629" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="163dp"
+            android:layout_height="137dp"
+            android:background="@drawable/custom_button1"
+            android:fontFamily="@font/be_vietnam"
+            android:text="Activities"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.442" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="160dp"
+            android:layout_height="134dp"
+            android:background="@drawable/custom_button2"
+            android:fontFamily="@font/be_vietnam"
+            android:text="Notes"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.902"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.442" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="146dp"
+            android:layout_height="51dp"
+            android:background="@drawable/custom_button2"
+            android:drawableLeft="@drawable/ic_baseline_book_24"
+            android:fontFamily="@font/be_vietnam"
+            android:text="Add Course"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.873"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.723" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="146dp"
+            android:layout_height="51dp"
+            android:background="@drawable/custom_button3"
+            android:drawableLeft="@drawable/icons8_moleskine_24"
+            android:fontFamily="@font/be_vietnam"
+            android:text="Add Notes"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.881"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.811"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/be_vietnam"
+
+            android:text="Course:"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.197" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="409dp"
+            android:layout_height="77dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.264">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="66dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/circle_button_sub1"
+                    android:fontFamily="@font/be_vietnam"
+                    android:text="PE3"
+                    android:textSize="11sp"
+                    tools:layout_editor_absoluteX="69dp"
+                    tools:layout_editor_absoluteY="253dp" />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="66dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/circle_button_sub2"
+                    android:fontFamily="@font/be_vietnam"
+                    android:text="GE5"
+                    android:textSize="11sp"
+                    tools:layout_editor_absoluteX="69dp"
+                    tools:layout_editor_absoluteY="253dp" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="66dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/circle_button_sub3"
+                    android:fontFamily="@font/be_vietnam"
+                    android:text="GE6"
+                    android:textSize="11sp"
+                    tools:layout_editor_absoluteX="69dp"
+                    tools:layout_editor_absoluteY="253dp" />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="66dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_button_sub4"
+                    android:fontFamily="@font/be_vietnam"
+                    android:text="GE6"
+                    android:textSize="11sp"
+                    tools:layout_editor_absoluteX="69dp"
+                    tools:layout_editor_absoluteY="253dp" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="66dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_button_sub5"
+                    android:fontFamily="@font/be_vietnam"
+                    android:text="GE6"
+                    android:textSize="11sp"
+                    tools:layout_editor_absoluteX="69dp"
+                    tools:layout_editor_absoluteY="253dp" />
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="66dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle_button_sub7"
+                    android:fontFamily="@font/be_vietnam"
+                    android:text="GE6"
+                    android:textSize="11sp"
+                    tools:layout_editor_absoluteX="69dp"
+                    tools:layout_editor_absoluteY="253dp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
